@@ -3,17 +3,19 @@
     src: url("Windsor.ttf");
 }
 
+
+
 table {
     background-color: blue;
     padding: 14px 16px;
-
 }
+    
+
+
 
 p {
-    float: left;
     font-family: "windsor";
     font-size: 40px;
-    padding: 14px 16px;
 }
 
 td {
