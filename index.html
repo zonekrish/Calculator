@@ -5,18 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="styles.css">
+    <script src = "app.js"></script>
 </head>
 <body>
-    <div id="disp">
-        <p>Just a number</p>
-    </div>
+    <p id = "disp">Just a number</p>
     
     
     <div id="calculator">
         
         <table id="calcMain">
             <tr>
-                <td><input type="button" value = "AC"></td>
+                <td><input type="button" value = "AC" onclick="displayItem()"></td>
                 <td><input type="button" value = "+/-"></td>
                 <td><input type="button" value = "%"></td>
                 <td><input type="button" value = "÷"></td>
