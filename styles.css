@@ -3,18 +3,22 @@
     src: url("Windsor.ttf");
 }
 
-table {
-    padding: 14px 16px;
-}
-
 p {
     font-family: "windsor";
-    font-size: 40px;
+    font-size: 30px;
 }
 
 td {
     text-align: center;
     font-size: 40px;
-    padding: 14px 16px;
     
+}
+
+input[type="button"] {
+    width: 100%;
+    background-color: darkslategray;
+    color:beige;
+    font-size: 24px;
+    font-family: "windsor";
+
 }
