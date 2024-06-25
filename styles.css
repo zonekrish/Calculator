@@ -3,15 +3,9 @@
     src: url("Windsor.ttf");
 }
 
-
-
 table {
-    background-color: blue;
     padding: 14px 16px;
 }
-    
-
-
 
 p {
     font-family: "windsor";
@@ -19,23 +13,8 @@ p {
 }
 
 td {
-    font-family: "windsor";
-    color:aqua;
     text-align: center;
     font-size: 40px;
     padding: 14px 16px;
     
-}
-
-td:hover {
-
-    animation-name: shift;
-    animation-duration: 0.2s;
-    color:green
-
-}
-
-@keyframes shift {
-    from {color:aqua}
-    to {color:green}
 }
