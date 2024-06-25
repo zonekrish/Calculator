@@ -28,7 +28,7 @@ td {
 td:hover {
 
     animation-name: shift;
-    animation-duration: 0.25s;
+    animation-duration: 0.2s;
     color:green
 
 }
