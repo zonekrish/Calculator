@@ -5,40 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="styles.css">
-    <script src = "app.js"></script>
+    <script src="app.js"></script>
 </head>
 <body>
-    <p id = "disp">Just a number</p>
+    <p id="disp"></p>
     
     
     <div id="calculator">
         
         <table id="calcMain">
             <tr>
-                <td><input type="button" value = "AC" onclick="displayItem()"></td>
+                <td><input type="button" value = "AC" onclick="clear()"></td>
                 <td><input type="button" value = "+/-"></td>
                 <td><input type="button" value = "%"></td>
                 <td><input type="button" value = "÷"></td>
     
             </tr>
             <tr>
-                <td><input type="button" value = "7"></td>
-                <td><input type="button" value = "8"></td>
-                <td><input type="button" value = "9"></td>
+                <td><input type="button" value = "7" onclick="displayItem('7')"></td>
+                <td><input type="button" value = "8" onclick="displayItem('8')"></td>
+                <td><input type="button" value = "9" onclick="displayItem('9')"></td>
                 <td><input type="button" value = "x"></td>
     
             </tr>
             <tr>
-                <td><input type="button" value = "4"></td>
-                <td><input type="button" value = "5"></td>
-                <td><input type="button" value = "6"></td>
+                <td><input type="button" value = "4" onclick="displayItem('4')"></td>
+                <td><input type="button" value = "5" onclick="displayItem('5')"></td>
+                <td><input type="button" value = "6" onclick="displayItem('6')"></td>
                 <td><input type="button" value = "-"></td>
     
             </tr>
             <tr>
-                <td><input type="button" value = "1"></td>
-                <td><input type="button" value = "2"></td>
-                <td><input type="button" value = "3"></td>
+                <td><input type="button" value = "1" onclick="displayItem('1')"></td>
+                <td><input type="button" value = "2" onclick="displayItem('2')"></td>
+                <td><input type="button" value = "3" onclick="displayItem('3')"></td>
                 <td><input type="button" value = "+"></td>
     
             </tr>
