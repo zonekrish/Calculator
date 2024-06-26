@@ -6,16 +6,16 @@ function displayItem(value) {
 
 }
 
-function add() {
+function operate(operation) {
     let val = parseInt(document.getElementById("disp").textContent);
-    oper = "add";
+    oper = "" + operation;
     final = val;
-    document.getElementById("disp").textContent = 0;
+    clear();
 
 }
 
 function clear() {
-    document.getElementById("disp").innerHTML="";
+    document.getElementById("disp").textContent="";
 }
 
 function equal() {
@@ -23,7 +23,16 @@ function equal() {
     switch (oper) {
         case "add":
             final+=val;
-
+            break;
+        case "subtract":
+            final-=val;
+            break;
+        case "multiply":
+            final*=val;
+            break;
+        case "divide":
+            final/=val;
+            break;
 
     }
 

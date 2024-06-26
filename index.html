@@ -18,32 +18,32 @@
                 <td><input type="button" value = "AC" onclick="clear()"></td>
                 <td><input type="button" value = "+/-"></td>
                 <td><input type="button" value = "%"></td>
-                <td><input type="button" value = "÷"></td>
+                <td><input type="button" value = "÷" onclick="operate('divide')"></td>
     
             </tr>
             <tr>
                 <td><input type="button" value = "7" onclick="displayItem('7')"></td>
                 <td><input type="button" value = "8" onclick="displayItem('8')"></td>
                 <td><input type="button" value = "9" onclick="displayItem('9')"></td>
-                <td><input type="button" value = "x"></td>
+                <td><input type="button" value = "x" onclick="operate('multiply')"></td>
     
             </tr>
             <tr>
                 <td><input type="button" value = "4" onclick="displayItem('4')"></td>
                 <td><input type="button" value = "5" onclick="displayItem('5')"></td>
                 <td><input type="button" value = "6" onclick="displayItem('6')"></td>
-                <td><input type="button" value = "-"></td>
+                <td><input type="button" value = "-" onclick="operate('subtract')"></td>
     
             </tr>
             <tr>
                 <td><input type="button" value = "1" onclick="displayItem('1')"></td>
                 <td><input type="button" value = "2" onclick="displayItem('2')"></td>
                 <td><input type="button" value = "3" onclick="displayItem('3')"></td>
-                <td><input type="button" value = "+" onclick="add()"></td>
+                <td><input type="button" value = "+" onclick="operate('add')"></td>
     
             </tr>
             <tr>
-                <td><input type="button" value = "0"></td>
+                <td><input type="button" value = "0" onclick="displayItem('0')"></td>
                 <td> </td>
                 <td> </td>
                 <td><input type="button" value = "=" onclick="equal()"></td>
